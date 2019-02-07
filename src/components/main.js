@@ -6,6 +6,9 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Resume from "./Resume";
+import Youtube from "./Youtube"
+import Trello from "./Trello"
+
 
 const Main = () => (
   <Switch>
@@ -14,6 +17,9 @@ const Main = () => (
     <Route exact path="/contact" component={Contact} />
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/resume" component={Resume} />
+    <Route exact path="/youtube" component={Youtube} />
+    <Route exact path="/trello" component={Trello} />
+
   </Switch>
 );
 

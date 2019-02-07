@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import avatar from "../images/Avatar.JPG";
 
 export default class Contact extends Component {
   render() {
@@ -8,11 +9,7 @@ export default class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Masood Gool</h2>
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
-              style={{ height: "200px" }}
-            />
+            <img src={avatar} alt="avatar" className="avatar-img" />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I am a passionate self-taught software developer with 2+ years of
               experience in programming and mentorship. I have trained over 2000

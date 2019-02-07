@@ -1,16 +1,16 @@
 .header-color {
-  background: #0f2027; /* fallback for old browsers */
+  background: #62aecf; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #ff4141,
+    #ff2f2f,
+    #ff2222
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #ff4141,
+    #ff2f2f,
+    #ff2222
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -18,15 +18,15 @@
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #ff4141,
+    #ff2f2f,
+    #ff2222
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #ff4141,
+    #ff2f2f,
+    #ff2222
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   top: 0;
@@ -38,12 +38,14 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  widows: 250px;
   border-radius: 50%;
+margin-top: 50px;
+margin-bottom: 20px;
 }
 
 .banner-text {
-  background-color: black;
+  background-color: rgb(255, 58, 58);
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -73,6 +75,11 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  text-align: center;
+}
+
+.social-links a{
+  display: inline-block;
 }
 
 .social-links i {
@@ -127,4 +134,8 @@
   background: #27221f;
   color: white;
   padding: 2em;
+}
+
+h3{
+  color:white
 }
